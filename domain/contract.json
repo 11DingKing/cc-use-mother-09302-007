@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "传承人资质巡检",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804947.html",
+  "actors": [
+    "校外人员管理员",
+    "非遗传承人",
+    "排课老师"
+  ],
+  "states": [
+    "登记",
+    "核验",
+    "生效",
+    "续期",
+    "撤销"
+  ],
+  "invariants": [
+    "资质版本",
+    "范围核验",
+    "到期巡检",
+    "隐私权限"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09302-007-A",
+      "actor": "校外人员管理员",
+      "state": "登记"
+    },
+    {
+      "case_id": "09302-007-B",
+      "actor": "排课老师",
+      "state": "核验"
+    }
+  ],
+  "tags": [
+    "mentor-credential",
+    "expiry-monitoring"
+  ]
+}
