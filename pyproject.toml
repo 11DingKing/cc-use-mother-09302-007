@@ -4,3 +4,9 @@ version = "0.1.0"
 description = "传承人资质巡检的领域约定与校验工具"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.scripts]
+qualification-service = "qualification.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
